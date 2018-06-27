@@ -15,7 +15,7 @@
    <dubbo:protocol name="dubbo"   port="20880"/>
 
    <dubbo:service interface="com.qiwenfei.dubbo.IHello"
-                  ref="helloService"/>
+                  ref="helloService" protocol="dubbo"/>
 
     <bean id="helloService" class="com.qiwenfei.dubbo.HelloImpl"/>
 

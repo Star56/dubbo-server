@@ -7,6 +7,8 @@ import java.io.IOException;
 /**
  * 2018/6/24
  * sunshine
+ *
+ * 使用加载配置xml的方式启动服务
  */
 public class BootStrap {
 
